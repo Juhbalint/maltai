@@ -1,0 +1,16 @@
+  <?php
+        $nev = array("Magyar Máltai Szeretetszolgálat",)
+        $cim = array("Kecskemét, Hoffmann János utca 11, 6000", "Bácsalmás, Szent János u. 13, 6430", "Keszthely, Eötvös u. 2, 8360","Budapest, Marosvásárhely u. 27, 1182","Dunaújváros, Október 23. tér 8, 2400");
+        $telefon = array('(76) 506 124', '<a target="_blank"href="https://www.geocaching.hu/caches.geo?id=244">GCVaHo</a>', '<a target="_blank"href="https://www.geocaching.hu/caches.geo?id=264">GCSZAP</a>');
+        $terkep = array("Báránypirosító tanösvény", "Vándorhomok", "Szappan-szék");
+
+        for ($i=0; $i < 4; $i++) { 
+            echo"<tr>
+                    <td>" . $nev[$i] ."</td>
+                    <td>" . $cim[$i] ."</td>
+                    <td>" . $telefon[$i] ."</td>
+                    <td>" . $terkep[$i] ."</td>
+                </tr>";
+        }
+          
+    ?>    

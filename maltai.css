@@ -1,0 +1,149 @@
+header {
+    border-radius: 10px;
+    background-color: #cc0000;
+    padding: 10px;
+    margin: 10px;
+}
+header img {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+h1{
+	color:#ffffff;
+}
+body{
+    background-image: url('hatter.jpg');
+    background-size: 2000px; 
+    background-repeat: no-repeat; 
+}
+
+div#terkep {
+    float: right;
+    border: 2px solid #777;
+    border-radius: 5px;
+
+}
+div iframe#video{
+    float: right;
+}
+
+div#wrapper {
+    margin: 10px;
+    padding: 15px 30px;
+}
+
+nav {
+    margin: 0px 10px 0px 0px;
+    top: 0px;
+    border-radius: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 30px;
+}
+
+nav ul li {
+    padding: 15px 30px;
+    margin:15px;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+div#content {
+    display: table-cell;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+divfelso{
+    background-image: url('hatter2.jpg');
+    background-size: 1400px; 
+    background-repeat: no-repeat; 
+}
+
+ #maltai2{
+width:300px;
+  margin:0 0 15px 20px;
+  padding:15px;
+  float: right;
+  
+}	
+
+
+
+#menu1 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 1em 0;
+    list-style-type: none;
+    background-color: #000;
+}
+#menu1 li { display:inline }
+#menu1 a {
+  float:left;
+  padding: 0.25em 1em;
+  margin: 0.25em 0 0.25em 1em;
+  color: #DDD;
+  text-decoration: none;
+}
+#menu1 a:hover { background-color:#333}	
+
+#footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #ccccb3;
+}
+
+#spar2{
+       width:160px;
+     padding: 5px 20px;
+}
+
+
+
+#otp2{
+   width:160px;
+     padding: 5px 20px;
+}
+
+#eon{
+    width:160px;
+     padding: 5px 20px;
+}
+
+#logok{
+  width:85px;
+    
+     padding: 5px 20px;
+}
+
+#solum{
+  width:65px;
+    
+     padding: 5px 20px;
+}
+
+#szerencse{
+  width:65px;
+    
+     padding: 5px 20px;
+}
+
+#kraft{
+    width:160px;
+    
+     padding: 5px 20px;
+}
