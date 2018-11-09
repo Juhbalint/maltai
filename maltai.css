@@ -12,44 +12,14 @@ header img {
 h1{
 	color:#ffffff;
 }
+
 body{
     background-image: url('hatter.jpg');
-    background-size: 2000px; 
+    background-size: 2000px;
     background-repeat: no-repeat; 
 }
 
-div#terkep {
-    float: right;
-    border: 2px solid #777;
-    border-radius: 5px;
 
-}
-div iframe#video{
-    float: right;
-}
-
-div#wrapper {
-    margin: 10px;
-    padding: 15px 30px;
-}
-
-nav {
-    margin: 0px 10px 0px 0px;
-    top: 0px;
-    border-radius: 10px;
-    
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 15px 30px;
-}
-
-nav ul li {
-    padding: 15px 30px;
-    margin:15px;
-}
 
 
 nav ul a {
@@ -62,23 +32,26 @@ div#content {
     display: table-cell;
     width: 100%;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px 30px;
+    margin: 10px;
     
 }
 
-divfelso{
-    background-image: url('hatter2.jpg');
-    background-size: 1400px; 
-    background-repeat: no-repeat; 
+#maltai2{
+     float: right;
+    width: 260px;
+    height: auto;
+    margin: 0 0 0px 0px;
+    padding: 3px;
 }
 
- #maltai2{
-width:300px;
-  margin:0 0 15px 20px;
-  padding:15px;
-  float: right;
-  
-}	
+#maltai4{
+     float: right;
+    width: 260px;
+    height: auto;
+    margin: 0 0 0px 0px;
+    padding: 3px;
+}
 
 
 
@@ -94,7 +67,7 @@ width:300px;
 #menu1 a {
   float:left;
   padding: 0.25em 1em;
-  margin: 0.25em 0 0.25em 1em;
+  margin: 8px 100px;
   color: #DDD;
   text-decoration: none;
 }
@@ -146,4 +119,24 @@ width:300px;
     width:160px;
     
      padding: 5px 20px;
+}
+
+#datum{
+  float:right;
+  background-color: #ffffcc;
+    border: 2px solid #777;
+    border-radius: 5px;
+}
+
+#tablazat{
+  
+margin: 0px;
+  padding: 0px 200px;
+  
+  border-radius:5px;
+    background-color: #ffffcc;
+}
+
+ #active{
+  background-color: white;
 }

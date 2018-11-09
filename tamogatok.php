@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Magyar Máltai szeretett </title>
+    <link rel="stylesheet" type="text/css" href="maltai.css">
+</head>
+<body>
+    
+    <header>
+        <img src="maltai.png" alt="maltai">
+        <center>
+        <h1>Minden amit a Máltai Szeretetszolgálatról tudni akartál!</h1>    
+        <form action="http://www.google.co.hu/search" method="get">
+            <table width="400">
+            <tbody>
+            <tr>
+            <td align="center" width="400">
+            <input type="text" maxlength="100" name="q" size="40" value="" />
+            <input type="submit" name="btnG" value="Google keresés" />
+            <input type="hidden" name="domains" value="www.maltai.nhely.hu" />
+            <!--<input type="radio" name="sitesearch" value="" /> www -->  
+            <input type="radio" checked="checked" name="sitesearch" hidden=true 
+            value="http://maltai.nhely.hu"/><!--www.maltai.nhely.hu-->  
+            </td></tr>
+            </tbody>
+            </table>
+            </form>
+        </center>
+    </header>
+            <nav>
+                <ul id="menu1">
+                    <li><a href="index.php">Főoldal</a></li>
+					<li><a href="tortenet.php">Történetünk</a></li>
+                    <li class="active"><a href="tamogatok.php">Támogatók</a></li>
+                    <li><a href="elerhetoseg.php">Elérhetőségek</a></li>
+                    <li><a href="kapcsolat.php">Kapcsolat</a></li>
+                </ul>
+            </nav>
+            <center>
+	 <div id="content">
+	 <h3> Stratégiai partnereink </h3>
+	 <p><strong>SPAR</strong> Magyarország!</p>
+    <img src="maltai5.jpg" id="spar2">
+	 <p>A SPAR a Magyar Máltai Szeretetszolgálat stratégiai partnere. A közösen szervezett Adni öröm!  akcióban 1997 óta minden  évben tízezreik adakoznak a kiválasztott üzletekben zajló gyűjtés során, az ajándékcsomagokat pedig rászorulók tízezreinek juttatja el Szeretetszolgálat. A SPAR hosszú időn át  jótékonysági termékével támogatta a Máltai Mentőszolgálatot. A kiválasztott  üzletek a Szeretetszolgálat adománykártyáit forgalmazzák.</p>
+	 <p><strong>OTP Bank Nyrt.</strong></p>
+	 <img src="maltai6.jpg" id="otp2">
+	 <p>Az OTP Bank Játszva megelőzni programjának segítségével a Szeretetszolgálat mozgó játszóterei  több mint kétszáz lecsúszó kistelepülésre viszik el  a játék örömét. A programhoz öt kisbuszt adományozott az OTP Bank.</p>
+    </div>
+</center>
+</body>
+</html>
+
+	 
