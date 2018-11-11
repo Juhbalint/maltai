@@ -13,6 +13,19 @@ h1{
 	color:#ffffff;
 }
 
+h2{
+  font-size: 70px;
+}
+
+h3{
+  font-size: 70px;
+  color:#fff;
+}
+
+h4{
+  font-size: 50px;
+}
+
 body{
     background-image: url('hatter.jpg');
     background-size: 2000px;
@@ -31,18 +44,19 @@ nav ul a {
 div#content {
     display: table-cell;
     width: 100%;
-    border-radius: 10px;
-    padding: 15px 30px;
-    margin: 10px;
-    
+    border-radius: 30px 30px 30px 30px;
+    padding: 30px 150px;
+    margin: 40px;
+    background-color: #fff;
+
 }
 
 #maltai2{
      float: right;
-    width: 260px;
+    width: 400px;
     height: auto;
     margin: 0 0 0px 0px;
-    padding: 3px;
+    padding: 10px 30px 30px;
 }
 
 #maltai4{
@@ -126,6 +140,7 @@ div#content {
   background-color: #ffffcc;
     border: 2px solid #777;
     border-radius: 5px;
+    padding:30px 10px 0px;
 }
 
 #tablazat{
@@ -139,4 +154,24 @@ margin: 0px;
 
  #active{
   background-color: white;
+}
+
+#box{
+  border:2px solid #777;
+  border-radius: 5px;
+  background-color: #ffffcc;
+  margin: 10px 10px 10px 10px;
+  padding:30px 30px 30px 30px;
+}
+
+#videohatter{
+  background-image: url('videohatter.jpg'); 
+  padding:30px 40px;
+  background-size: 2400px;
+  background-repeat: no-repeat; 
+}
+
+#kecskemet{
+  background-color: #F8FCB9;
+  padding:30px 40px;
 }

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Magyar Máltai szeretett</title>
     <link rel="stylesheet" type="text/css" href="maltai.css">
+      <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body> 
 <center>
@@ -40,7 +41,12 @@
                     <li><a href="kapcsolat.php">Kapcsolat</a></li>
                 </ul>
             </nav>
-            <center>
+
+            <center >
+                     <div id="content">
+
+                <div id="box">
+
                 <h1>Kapcsolat</h1>
     <form name="kapcsolat" action="php/kapcsolat.php" onsubmit="return ellenoriz();" method="post">
         <div>
@@ -54,34 +60,8 @@
             <button onclick="ellenoriz();" type="button">Ellenőriz</button>
         </div>
     </form>
-
-</body>
-</html>
-
-<?php
-	//szerver oldali ellenőrzés példa
-
-	if(!isset($_POST['nev']) || strlen($_POST['nev']) < 5)
-	{
-		exit("Hibás név: ".$_POST['nev']);
-	}
-
-	$re = '/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/';
-	if(!isset($_POST['email']) || !preg_match($re,$_POST['email']))
-	{
-		exit("Hibás email: ".$_POST['email']);
-	}
-
-	if(!isset($_POST['szoveg']) || empty($_POST['szoveg']))
-	{
-		exit("Hibás szöveg: ".$_POST['szoveg']);
-	}
-
-	echo "Kapott értékek: ";
-	echo "<pre>";
-	var_dump($_POST);
-	echo "</pre>";
-?>
+</div>
+</div>
 </center>
 	</body>
 </html>

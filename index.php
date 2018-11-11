@@ -41,10 +41,12 @@
                 </ul>
             </nav>
 	 <div id="content">
-        
-            <h2>Üdv kedves érdeklődő!</h2><img id="maltai2"  src="maltai2.png" alt="maltai2">
+        <img id="maltai2"  src="maltai2.png" alt="maltai2">
+            <h4>Üdv kedves érdeklődő!</h4>
 
-<div id="datum">
+			<p> Ez egy átvariált verziója az eredeti szervezet oldalának.</p>
+			<p><a target="_blank"href="https://www.maltai.hu/">Ha az eredeti oldal érdekel kattints ide!</a></p>
+            <div id="datum">
             <?php
                 $maiDatum = date("Y-m-d");
                 $hetNapja = 7;
@@ -54,17 +56,29 @@
                 echo"<br><br>";
             ?> 
              </div>
-			<p> Ez egy átvariált verziója az eredeti szervezet oldalának.</p>
-			<p><a target="_blank"href="https://www.maltai.hu/">Ha az eredeti oldal érdekel kattints ide!</a></p>
-            <h3>Amit rólunk tudni kell!</h3>
+            <h2>Amit rólunk tudni kell!</h2>
 			<p> Több mint kilencszáz éve ez minden Máltai szervezet jelmondata a világon. Világos cél, világos feladat. Az alapító atyák más korban biztosan mást értettek a hit védelmén, mint amit ma gondolunk küldetésünkrõl, és a szegények istápolása is bizonyosan más tartalommal bírt akkoriban.
 			Ettõl azonban jelmondatunk nem vált idejét múlttá, hiszen napjainkban ugyanolyan fontos a hit védelme, amelyet ma példamutatásunkkal, a szegényekhez, bajbajutottakhoz való odafordulásunkkal, szeretetünkkel próbálunk szolgálni.</p>
-			<p>A segítségünkre szorulók száma sajnos nem csökken és ez egyre több erõfeszítésre kényszerít bennünket. A mai kor elvárásai szerint végezzük munkánkat, amelynek legfõbb értékei a közösség ereje, a feladathoz való alázat, a magas szintű szakmai felkészültség, de talán legfontosabbként a rászoruló ember valódi szolgálata.</p>
+            
+            <p>A segítségünkre szorulók száma sajnos nem csökken és ez egyre több erõfeszítésre kényszerít bennünket. A mai kor elvárásai szerint végezzük munkánkat, amelynek legfõbb értékei a közösség ereje, a feladathoz való alázat, a magas szintű szakmai felkészültség, de talán legfontosabbként a rászoruló ember valódi szolgálata.</p>
+            </div>
+            <div id="kecskemet">
+            <h2><strong>Magyar Máltai Szeretetszolgálat Kecskeméten!</strong></h2>
+            <p>A kecskeméti csoport 1991 augusztusában alakult meg. Szolgálatára áll Kecskemét, valamint a környező települések, tanyák rászorultjainak. A máltaiak bíznak abban, hogy munkájukkal – ha megszűntetni nem is – enyhíteni tudják mások szenvedését. A szegények, betegek, magányosok és idősek életébe egy csöpp szeretetet kívánnak vinni, és őszintén remélik, hogy erre Isten alkalmassá teszi őket.</p>
+            <p>A kecskeméti csoport jelenleg 70 fő alkalmazottal és mintegy 85 fő önkéntessel működteti hajléktalan emberek számára intézményeit.
+                A Szeretetszolgálat sokágú tevékenységét legjobban az adomány kifejezés szimbolizálja, amely olyan ajándék, amit azért kapunk, hogy tovább adhassuk.
+                Az adományok mögött ezer és ezer jószándékú ember szolgáló, szervező és gyűjtő munkája áll.</p>
+            <p>Szolgálatunk az ifjúság bevonásával számos karitatív tevékenységet végez. Ilyen a „72 óra kompromisszumok nélkül” elnevezésű program, melyben fiatalok segítenek szolgálatukkal rászoruló embereket.</p>
+           </div>
+           
+      
+       <div id="videohatter">
         <center>
+        <h3><strong>Így segítünk mi!</strong></h3>
 
             <iframe id="video" width="800" height="450" 
             src="https://www.youtube.com/embed/BvcnnnLydEA">
-</iframe>
+        </iframe>
         </center>
 			</div>
 	
