@@ -47,7 +47,9 @@
 	 <p>A szolgálat Magyarországon az 1990-es évek közepére építette ki országos szervezetét.</p>
 	 <p>Kozma Imre atya, a Szeretetszolgálat nagy társadalmi megbecsülést kivívott vezetője sokat tett a határokon túli magyarokért is.</p>
 	 <p><a target="_blank"href="https://hu.wikipedia.org/wiki/Magyar_M%C3%A1ltai_Szeretetszolg%C3%A1lat">Tudj meg többet!</a></p>
-     <p><img src="maltai4,2.jpg" id="maltai4,2"></p>
+     <iframe id="video" width="800" height="450" 
+            src="maltai.mp4">
+        </iframe>
 	 </div>
     </center>
     </body>
